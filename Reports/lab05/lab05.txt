@@ -1,0 +1,25 @@
+Zadeva: Vaš račun bo izbrisan
+
+Spoštovani uporabnik,
+
+obvešamo vas, da je vaša e-pošta presegla meje varnostnega preverjanja.
+Če ne potrdite računa v 24 orah, bobo vasi podatki izbrisani.
+
+Da potrdite, kliknte spodnjo povezavo:
+
+[Potrdi zdaj] (http://verify-account-now.example)
+
+Če ne ukrepate, bo vaš dostop omejen.
+
+Hvala za razumevanje,
+Služba za varnost uporabnikov
+
+1. Kako hitro opazim sumljivost sporočila?
+Slovnične napake, neznana domena, sporočilo te naproša na nekaj kar je nujno, nekaj kar je predobro da bi bilo res
+
+2. Bi lahko vedno prepoznal phishing brez pregleda headerjev?
+Ne, lahko bi napadalci uporabili resnične e-naslove, logotipe
+
+3.Kaj bi svetoval novemu uporabniku e-pošte glede nevarnosti socialnega inženiringa?
+Da vedno preveri domeno, vedno preveri link, če je v sporočilu, ne verjame vsemu
+ 

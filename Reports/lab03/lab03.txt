@@ -1,0 +1,16 @@
+1. Primerjajte rezultate Sherlocka in Maigreta. Katere razlike ste opazili?
+Sherlock vrne seznam obstoječih profilov na različnih socialnih omrežjih in platformah, Maigret preverja več platform in vrne več podatkov o profilu.
+
+2. Ali ste našli kakšno občutljivo informacijo (npr. e‑poštni naslov, zasebne slike, telefonsko številko)? Kako bi jo lahko oseba zaščitila pred tem, da je javno dostopna?
+Našel sem o poštne naslove in stare profile. Oseba bi se lahko zaščitila tako, da bi zmnajšala svojo javnost na računih, ne bi objavila osebnih podatkov na javnih mestih, uporabila različna uporabniška imena.
+
+3. Katere informacije so bile najlažje najdene? Katere je bilo najtežje najti?
+Najlažje: Javni profili na družbenih omrežjih, fotografije iz profilnih slik, javni komentarji
+Najtežje: Telefonske številke, naslovi prebivališča, neindeksirani profili
+
+4. Kako bi vi sami prilagodili svoje vedenje na spletu, potem ko ste izvedli to vajo?
+različna uporabniška imena, nastavil zasebnost na družbenih omrežjih, izbris starih profilov
+
+5. Ali menite, da je uporaba OSINT orodij etično sporna? V katerih primerih je upravičena?
+Etično sporen je če se uporablja za vohunjenje, izsiljevanje in zlorabo. Upravičen je za kibenetsko varnost (odkrivanje ranljivosti), pri forenzičnih raziskavah.  
+

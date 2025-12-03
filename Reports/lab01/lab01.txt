@@ -1,0 +1,61 @@
+   1  whoami
+    2  uname /a
+    3  uname -a
+    4  htop
+    5  sudo apt install htop
+    6  sudo apt update
+    7  sudo apt install
+    8  sudo nmtui
+    9  sudo apt install htop
+   10  cat /etc/apt/sources.list\n
+   11  sudo apt update
+   12  sudo apt install
+   13  sudo apt install htop
+   14  sudo apt install traceroute -z
+   15  sudo apt install traceroute -y
+   16  sudo apt install nload -y
+   17  sudo apt install speedtest/cli -y
+   18  sudo apt install speedtest-cli -y
+   19  speedtest-cli --secure
+   20  nmap
+   21  sudo apt install name-that-hash
+   22  clear
+   23  sudo apt install john
+   24  ls /usr/share/wordlists/rockyou.txt
+   25  john
+   26  ls
+   27  mkdir vaja06
+   28  cd vaja06
+   29  ls /usr/share/wordlists/rockyou.txt
+   30  wget https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
+   31  ls /usr/share/wordlists/rockyou.txt
+   32  wc -l rockyou.txt
+   33  cat rockyou.txt | grep kosova123
+   34  cat rockyou.txt | grep dardania7
+   35  hash-identifier
+   36  whoami
+   37  hostnamectl
+   38  uname -a
+   39  df -h
+   40  ip a
+   41  wget url
+   42  wget https://gist.githubusercontent.com/EdwardRayl/3436572afde8ce9e3faf5b7b95356a49/raw/6b25895fce480713560829dec31ac8220ffe5272/gists.txt
+   43  sudo apt install 7zip
+   44  which nmap
+   45  which john
+   46  cd /
+   47  ls -la
+   48  nmap -O 192.168.1.101
+   49  nmap -p 1-65535 -T4 192.168.1.1
+   50  searchsploit wordpress ftp
+   51  dnsenum google.com
+   52  lbd google.com
+   53  nth
+   54  sudo apt install name-that-hash
+   55  nth -t ef487f75307f96954d3bb132e5f4b035
+
+<stalimi Linux distribucijami?
+Kali Linux distribucija je namenjena kibernetski varnosti, saj omogoča veliko orodij za penetracijske teste, forenzično analizi, varnostno preverjanje, itd. Kali Linux že vključuje veliko varnostnih orodij že pb namestitvi, optimiziran je za kibernetsko varnost.
+
+Katere funkcionalnosti in orodja Kali Linuxa so vas najbolj pritegnile?
+John the Ripper, Nmap, Wireshark

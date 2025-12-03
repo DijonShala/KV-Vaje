@@ -1,0 +1,12 @@
+1. Razmislite in zabeležite katere podatke ste našli.
+Našel sem moj profil na LinkedIn, Facebook, moj email je bil 2x del DB Leaka
+
+2. Kakšno potencialno tveganje predstavljajo ti podatki?
+Tveagnje za sledenje mojemu življenju, pomoč za lažji socialni inženiring, krajo identitete.
+Če moja gesla iz leakov niso bila uporabljena, bi hekerjem omogočal dostop do mojih računov
+
+3. Zapišite primer črnega scenarija kako bi nekomu ti podatki lahko prišli prav na primeru osebne izpostavljenosti.
+Če napadalec dobi moje ime, priimek, delovno mesto lahko naredi phishing email, kjer bi poskusil pridobiti moje podatke in mi ukradel službeni račun.
+
+4. Kako bi ocenil svojo osebno varnost / zasebnost?
+Moja osebna varnost je srednje nizka, moj email je bil del DB Leaka leta 2018 in 2019, javno imam samo osnovne podatke, imam močna gesla, uporabljam 2-FA in Authenticator. Osebna varnost je zadovoljiva, vendar bi se lahko še izboljšal na nekaterih področjih.

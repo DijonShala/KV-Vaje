@@ -1,0 +1,12 @@
+1. Kakšna je bila natančna lokacija (koordinate in naslov)?
+Nisem našel lokacije
+
+2. Kdaj je bila slika posneta?
+16.8.2025
+3. Katere druge metapodatke si zaznal?
+Naprava, Lens, Datum, ISO, Tip slike, Resolucija, ...
+4. Kaj vas je presenetilo?
+Količina podatkov, ki so vsebovani in vidni
+5. Kaj bi priporočali osebi, ki redno objavlja slike na spletu?
+Da odstrani EXIF podatke preden objavi sliko
+
