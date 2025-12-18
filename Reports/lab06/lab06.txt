@@ -1,0 +1,11 @@
+Program je našel 3 od 5 gesel, našel je gesla Password1, qwerty123 in letmein. Našel jih je v približno 1 sekundi.
+Močna gesla pa niso bila najdena, saj niso v slovarju rockyou.txt.
+
+Ocena varnosti gesla se z dodajanjem dolžine povečuje zelo hitro, saj število možnih kombinacij narašča eksponentno. Vsak dodatni znak bistveno poveča čas, ki ga napadalec potrebuje za brute-force napad. Medtem ko je krajše geslo mogoče razbiti v razumnem času, postane dovolj dolgo geslo praktično neizvedljivo za razbijanje, tudi z zmogljivo strojno opremo. Zaradi tega je dolžina najpomembnejši dejavnik pri oceni varnosti gesla.
+
+Posebni znaki vplivajo na varnost tako, da povečajo nabor znakov, iz katerih je geslo sestavljeno, s tem pa tudi število možnih kombinacij. To otežuje ugibanje in hibridne slovarske napade. Kljub temu pa dodajanje nekaj posebnih znakov ne izboljša varnosti toliko kot povečanje dolžine gesla. Geslo, ki temelji na znani besedi in ima dodan le poseben znak ali dve, je še vedno relativno šibko.
+
+Passphrase se v primerjavi s klasičnim geslom ocenjuje kot varnejša predvsem zato, ker je običajno precej daljša. Sestavljena je iz več besed, ki skupaj tvorijo smiselno ali osebno zaporedje, kar omogoča dobro zapomljivost ob hkrati visoki stopnji varnosti. Zaradi dolžine in manjše predvidljivosti je passphrase odpornejša proti brute-force in slovarskim napadom kot kratko, zapleteno geslo.
+
+Za vsakodnevno uporabo je najbolj priporočljivo uporabljati dolgo passphrase, sestavljeno iz več nepovezanih besed, po možnosti z dodanim ločilom ali veliko začetnico. Takšno geslo je varno, enostavno za pomnjenje in praktično za uporabo. Dodatno varnost zagotavlja uporaba upravljalnika gesel, ki omogoča edinstvena gesla za vsako storitev in zmanjšuje tveganje ponovne uporabe gesel.
+
