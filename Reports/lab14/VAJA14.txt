@@ -1,0 +1,25 @@
+  174  sudo apt update
+  175  sudo apt install gnupg
+  176  gpg --full-generate-key
+  177  gpg --list-keys
+  178  gpg --armor --export student@example.com > student_pubkey.asc
+  179  gpg --import peer_pubkey.asc
+  180  gpg --full-generate-key
+  181  gpg --list-keys
+  182  gpg --armor --export peer@example.com > peer_pubkey.asc
+  183  gpg --import peer_pubkey.asc
+  184  echo "To: peer@example.com From: student@example.com Date: $(date) Secret message: Zaupno sporočilo" > message.txt
+  185  ls
+  186  cat message.txt
+  187  gpg --encrypt --sign --armor --recipient peer@example.com message.txt
+  188  ls
+  189  gpg --decrypt message.txt.asc > decrypted_message.txt
+-----------------------------------------------------------
+Razlika med šifriranjem in podpisom:
+Šifriranje zagotavlja zaupnost (da vsebine ne more prebrati nepooblaščena oseba), podpis pa avtentičnost in celovitost (kdo je sporočilo poslal in da ni bilo spremenjeno).
+
+Vloga javnega in zasebnega ključa:
+Javni ključ se uporablja za šifriranje ali preverjanje podpisa, zasebni ključ pa za dešifriranje ali ustvarjanje podpisa.
+
+Kaj se zgodi ob spremembi šifrirane datoteke:
+Dešifriranje običajno ne uspe ali pa se zazna, da je bila vsebina spremenjena (npr. napaka pri preverjanju celovitosti).

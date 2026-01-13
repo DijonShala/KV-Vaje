@@ -1,0 +1,24 @@
+ 194  gpg --full-generate-key
+  195  gpg --list-keys
+  196  gpg --fingerprint alice@example.com
+  197  gpg --fingerprint bob@example.com
+  198  gpg --fingerprint mallory@example.com
+  199  gpg --armor --export mallory@example.com > bob_pubkey.asc
+  200  gpg --import bob_pubkey.asc
+  201  echo "zaupno sporočilo za boba" > secret.txt
+  202  gpg --encrypt --recipient bob@example.com secret.txt
+  203  gpg --decrypt secret.txt.gpg
+  204  gpg --fingerprint bob@example.com
+  205  gpg --edit-key bob@example.com
+-------------------------------------------------------
+Zakaj GPG ne zazna MITM napada samodejno?
+Ker GPG ne ve, kateri javni ključ je pravi, zaupa ključem, dokler jih uporabnik ali Web of Trust ne preveri.
+
+Kaj je fingerprint in zakaj je pomemben?
+Fingerprint je kratek, enoličen povzetek javnega ključa; pomemben je za zanesljivo preverjanje identitete ključa.
+
+Zakaj e-pošta ni varen kanal za izmenjavo ključev?
+Ker jo je mogoče prestrezati ali ponarediti, zato lahko napadalec zamenja javni ključ (MITM).
+
+Kako Web of Trust zmanjša tveganje MITM napada?
+Tako da več zaupanja vrednih oseb potrdi isti ključ, kar oteži podtikanje lažnega ključa.

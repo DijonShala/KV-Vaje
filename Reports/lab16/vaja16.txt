@@ -1,0 +1,25 @@
+07  sudo apt install gnupg
+  208  echo "API_KEY=super-secret-key-123\nDB_PASSWORD=VeryStrongPassword" > secrets.env
+  209  gpg -c secrets.env
+  210  rm secrets.env
+  211  gpg secrets.env.gpg
+  212  gpg -d secrets.env.gpg
+  213  gpg --encrypt --recipient student@example.com secrets.env
+  214  source secrets.env
+  215  echo $API_KEY
+  216  unset API_KEY
+  217  unset DB_PASSWORD
+  218  secrets.env.gpg
+  219  gpg secrets.env.gpg
+----------------------------------------------------------
+Zakaj skrivnosti ne sodijo v izvorno kodo?
+Ker se koda deli, verzionira in arhivira, s tem se skrivnosti nehote razkrijejo in jih je težko zamenjati.
+
+Kakšna je razlika med simetričnim in asimetričnim šifriranjem skrivnosti?
+Simetrično uporablja en skupni ključ za šifriranje in dešifriranje, asimetrično pa par javni/zasebni ključ.
+
+Kaj se zgodi, če izgubimo zasebni ključ?
+Do šifriranih skrivnosti ne moremo več dostopati (praktično so izgubljene).
+
+Kako bi to rešili v večjem podjetju?
+Z uporabo centraliziranega sistema za upravljanje skrivnosti (npr. Vault), backup/rotacijo ključev, kontroliran dostop in postopke za obnovo.
